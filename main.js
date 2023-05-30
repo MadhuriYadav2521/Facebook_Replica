@@ -85,5 +85,5 @@ function logout() {
     alert("We will miss you..")
     localStorage.removeItem("facebookCurrentUser");
     window.location.reload();
-    window.location.href = "./signup.html"
+    window.location.href = "./register.html"
 }

@@ -5,15 +5,358 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook-log in or sign up</title>
+    <title>Facebook</title>
     <link rel="icon" type="image/x-icon" href="./img/fav.png">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8cfedbae53.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="screen">
-        <h1>Facebook</h1>
+        <div class="top-navbar">
+            <div class="left-navbar">
+                <div class="fb-logo">
+                    <img src="./img/fav.png" alt="">
+                </div>
+                <div class="nav-searchbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search Facebook">
+                </div>
+            </div>
+            <div class="middle-navbar">
+                <div class="nav-item"><i class="fa-solid fa-house"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-display"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-store"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-people-group"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-business-time"></i></div>
+            </div>
+            <div class="right-navbar">
+                <div class="nav-right-item"><i class="fa-solid fa-braille"></i></div>
+                <div class="nav-right-item"><i class="fa-brands fa-facebook-messenger"></i></div>
+                <div class="nav-right-item"><i class="fa-solid fa-bell"></i></div>
+                <div class="nav-right-item"><i class="fa-solid fa-user"></i></div>
+            </div>
+        </div>
+
+        <div class="home-body">
+            <div class="left-home-body">
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="left-aside-title" id="switch">Madhuri Yadav</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="left-aside-title">Friends</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png" alt="">
+                    </div>
+                    <div class="left-aside-title">feeds (most recent)</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <div class="left-aside-title">groups</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="left-aside-title">marketplace</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-tv"></i>
+                    </div>
+                    <div class="left-aside-title">watch</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div class="left-aside-title">memories</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>
+                    <div class="left-aside-title">saved</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-flag"></i>
+                    </div>
+                    <div class="left-aside-title">pages</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-calendar-xmark"></i>
+                    </div>
+                    <div class="left-aside-title">events</div>
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/ATlxuj_J5ty.png" alt="">
+                    </div>
+                    <div class="left-aside-title">ads manager</div>
+                </div>
+                <div class="left-aside-links" id="logout">
+                    
+                </div>
+                <div class="left-aside-links">
+                    <div class="left-aside-img">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="left-aside-title">see more</div>
+                </div>
+                
+                <div class="left-aside-links">
+                    <div class="footer-content">Privacy. Terms. Advertising. Ad Choices. Cookies. More. Meta &copy; 2023
+                    </div>
+                </div>
+            </div>
+            <div class="right-home-body">
+                <div class="inner-left-home-body">
+                    <div class="stories-section">
+                        <div class="stories-header">
+                            <div class="story-links">
+                                <i class="fa-solid fa-book-open"></i>
+                                <div class="story-link-title">Stories</div>
+                            </div>
+                            <div class="story-links">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <div class="story-link-title">Reels</div>
+                            </div>
+                            <div class="story-links">
+                                <i class="fa-solid fa-video"></i>
+                                <div class="story-link-title">Rooms</div>
+                            </div>
+                        </div>
+                        <div class="stories-body">
+                            <div class="story">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmB4mUDolqArCNEEE5vDivxENcKvjns0WVocZUDjNXWrHtTaKQ50qYn43V0DPD3MCbVb8&usqp=CAU"
+                                    alt="">
+                            </div>
+                            <div class="story">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmB4mUDolqArCNEEE5vDivxENcKvjns0WVocZUDjNXWrHtTaKQ50qYn43V0DPD3MCbVb8&usqp=CAU"
+                                    alt="">
+                            </div>
+                            <div class="story">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmB4mUDolqArCNEEE5vDivxENcKvjns0WVocZUDjNXWrHtTaKQ50qYn43V0DPD3MCbVb8&usqp=CAU"
+                                    alt="">
+                            </div>
+                            <div class="story">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmB4mUDolqArCNEEE5vDivxENcKvjns0WVocZUDjNXWrHtTaKQ50qYn43V0DPD3MCbVb8&usqp=CAU"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-section">
+                        <div class="activity-section-header">
+                            <div class="activity-header-img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2bmnqWuXg6O5fAuyR6JUWA_1DwS71TlhLmrdLuskEiGfa5IghGksx27rjOdj57scV3Ww&usqp=CAU"
+                                    alt="">
+                            </div>
+                            <input class="activity-input" placeholder="Whats's on your mind?"></input>
+                        </div>
+                        <div class="activity-section-content">
+                            <div class="activity-link">
+                                <div class="activity-link-img">
+                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/c0dWho49-X3.png" alt="">
+                                </div>
+                                <div class="a-l-title">Live Video</div>
+                            </div>
+                            <div class="activity-link">
+                                <div class="activity-link-img">
+                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/Ivw7nhRtXyo.png" alt="">
+                                </div>
+                                <div class="a-l-title">Live Video</div>
+                            </div>
+                            <div class="activity-link">
+                                <div class="activity-link-img">
+                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Y4mYLVOhTwq.png" alt="">
+                                </div>
+                                <div class="a-l-title">Live Video</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-section">
+                        <div class="post-header">
+                            <div class="post-header-left">
+                                <div class="post-heder-img">
+                                    <img src="https://wallpapershome.com/images/pages/ico_v/19587.jpg" alt="">
+                                </div>
+                                <div class="post-name">illustration_drawings</div>
+                            </div>
+                            <div class="post-header-right">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="post-caption">
+                            Art is not what you see, but what you makes others see!
+                        </div>
+                        <div class="post-img">
+                            <img src="https://rare-gallery.com/uploads/posts/1204737-vertical-portrait-display-anime-anime-girls-digital-art.jpg" alt="">
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-footer-head">
+                                <div class="likes">
+                                    <div class="like-img">
+                                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" alt="">
+                                    </div>
+                                    161
+                                </div>
+                                <div class="commentShare">
+                                    <div class="comment">
+                                        <i class="fa-regular fa-comment"></i>
+                                        21
+                                    </div>
+                                    <div class="share">
+                                        <i class="fa-solid fa-share"></i>
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-footer-body">
+                                <div class="post-f-link">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    like
+                                </div>
+                                <div class="post-f-link">
+                                    <i class="fa-regular fa-comment"></i>
+                                    comment
+                                </div>
+                                <div class="post-f-link">
+                                    <i class="fa-solid fa-share"></i>
+                                    share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-section">
+                        <div class="post-header">
+                            <div class="post-header-left">
+                                <div class="post-heder-img">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRon2ul8NiZo2cfN5mV14oXAKiJ6Oypsmwgcp9SG1wgQlPd10H468FcvDwRsxvfLzS1A_M&usqp=CAU" alt="">
+                                </div>
+                                <div class="post-name">illustration_drawings</div>
+                            </div>
+                            <div class="post-header-right">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="post-caption">
+                            Art is not what you see, but what you makes others see!
+                        </div>
+                        <div class="post-img">
+                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXeOUbjQHAO7wkq_ekYZjC9C_qIaMBAkFzyA&usqp=CAU" alt="">
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-footer-head">
+                                <div class="likes">
+                                    <div class="like-img">
+                                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" alt="">
+                                    </div>
+                                    161
+                                </div>
+                                <div class="commentShare">
+                                    <div class="comment">
+                                        <i class="fa-regular fa-comment"></i>
+                                        21
+                                    </div>
+                                    <div class="share">
+                                        <i class="fa-solid fa-share"></i>
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-footer-body">
+                                <div class="post-f-link">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    like
+                                </div>
+                                <div class="post-f-link">
+                                    <i class="fa-regular fa-comment"></i>
+                                    comment
+                                </div>
+                                <div class="post-f-link">
+                                    <i class="fa-solid fa-share"></i>
+                                    share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="inner-right-home-body">
+                    <div class="left-home-header">
+                        <div class="Contacts">Contacts</div>
+                        <div class="l-h-icons">
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                    <div class="left-home-content">
+                        <div class="right-aside-links">
+                            <div class="left-aside-img">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </div>
+                            <div class="left-aside-title">ABC</div>
+                        </div>
+                        <div class="right-aside-links">
+                            <div class="left-aside-img">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </div>
+                            <div class="left-aside-title">XYZ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+<script src="./main.js"></script>
+<script>
+         window.onload = function () {
+            // alert("working")
+            var currentUser = JSON.parse(localStorage.getItem("facebookCurrentUser"))
+            // console.log(currentUser,"currentUser");
+            if (!!currentUser) {
+                // alert(currentUser.namee)
+                var logoutDiv = document.getElementById("logout");
+                var divFromHtml = document.getElementById("switch");
+                // console.log(divFromHtml,"divFromHtml");
+                // var h1 = document.createElement("h1");
+                // h1.innerText = "madhuri"
+                // divFromHtml.append(h1)
+                var button = '<div class="left-aside-img" onclick="logout() "> <i class="fa-solid fa-arrow-right-from-bracket"></i></div> <div class="left-aside-title">Logout</div>'
+                var name = `<p> ${currentUser.namee}</p>`;
+                divFromHtml.innerHTML = name;
+                logoutDiv.innerHTML = button;
+            }
+            // else{
+            //     alert("current user absent")
+            // }
+            }
+
+
+
+
+</script>
+
+
 </body>
 
 </html>
