@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+.screen{
+    width: 100%;
+}
+.l-r-Container{
+    width: 100%;
+}
+.registerContainer{
+    width: 33%;
+    margin: 10rem auto 0 auto;
+    border: .1rem solid lightgray;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.register-header{
+    border-bottom: .1rem solid lightgray;
+    padding: 1.7rem;
+}
+.resister-innerheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .7rem;
+}
+.resister-big-txt{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.register-normal-txt{
+    font-size: 1.5rem;
+}
+.resister-innerheader i{
+    font-size: 2.5rem;
+    color: gray;
+    cursor: pointer;
+}
+.form-wrapper{
+    width: 100%;
+    padding: 1.7rem;
+}
+.form-wrapper form{
+    width: 100%;
+}
+.input_wrap{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.input_wrap input{
+    width: 100%;
+    background-color: rgb(239, 237, 237);
+    padding: 1rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: .1rem solid lightgray;
+    border-radius: .5rem;
+}
+.tandc-sp-small-text{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.tandc-sp-small-text span{
+    color: blue;
+    cursor: pointer;
+}
+.submit-btn{
+    width: 100%;
+}
+.submit-btn input{
+    width: 43%;
+    margin: 2rem auto 1rem auto;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: .6rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #00a400;
+    cursor: pointer;
+
+}
+.loginContainer{
+    width: 70%;
+    margin: 10% auto 0 auto;
+    /* border: .1rem solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+.body{
+    background-color: #f0f2f5;
+}
+.login-left{
+    width: 55%;
+    /* border: 1px solid salmon; */
+    background-color: #f0f2f5;
+}
+.login-right{
+    width: 42%;
+    /* border: 1px solid salmon; */
+}
+.login-inner-content{
+    width: 100%;
+    padding: 1.7rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.login-form-wrapper{
+    width: 100%;
+}
+.login-form-wrapper form{
+    width: 100%;
+    border-bottom: .1rem solid lightgray;
+    /* background-color: #fff; */
+}
+.f-logo-wrapper{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+}
+.f-logo-wrapper img{
+    width: 50%;
+}
+.l-l-text{
+    font-size: 2.2rem; 
+}
+.login-input{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.login-input input{
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    outline: none;
+    border: .1rem solid lightgray;
+    border-radius: .5rem;
+}
+.login-input input:focus{
+    border-color: #b2cef2;
+    box-shadow: rgba(76, 143, 250, 0.4) 0px 1px 4px 0px;
+}
+.login-btn input{
+    width: 100%;
+    margin: 2rem auto 1rem auto;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #1877f2;
+    cursor: pointer;
+
+}
+.forgot-password{
+    font-size: 1.3rem;
+    color: #1877f2;
+    cursor: pointer;
+    margin:  2rem auto 2rem auto;
+    width: 80%;
+    text-align: center;
+}
+.new-account{
+    width: 100%;
+}
+.new-account input{
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #00a400;
+    cursor: pointer;
+}
+.login-footer{
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    margin: 2.5rem auto;
+}
+.login-footer span{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

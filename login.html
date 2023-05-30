@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" type="image/x-icon" href="./img/fav.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8cfedbae53.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="screen">
+        <div class="l-r-Container">
+            <div class="loginContainer">
+                <div class="login-left">
+                    <div class="f-logo-wrapper">
+                        <img src="./img/f-logo.png" alt="">
+                    </div>
+                    <div class="l-l-text">Connect with friends and the world around you on Facebook.</div>
+                </div>
+                <div class="login-right">
+                   <div class="login-inner-content">
+                    <div class="login-form-wrapper">
+                        <form  onsubmit="login(event)">
+                            <div class="login-input">
+                                <input type="email" id="userEmail" required autocomplete="off" placeholder="Email address" />
+                            </div>
+                            <div class="login-input">
+                                <input type="password" id="userPassword" required autocomplete="off" placeholder="Password" />
+                            </div>
+                            <div class="login-btn">
+                                <input type="submit" name="" id="" value="Log in">
+                            </div>
+
+                            <div class="forgot-password">Forgotten password?</div>
+                        </form>
+
+                        <div class="new-account" onclick="window.location.href='./register.html'">
+                            <input type="submit" name="" id="" value="Create new account">
+                        </div>
+                    </div>
+                   </div>
+                    
+                <div class="login-footer"><span>Create a Page</span> for a celebrity, brand or bussiness.</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

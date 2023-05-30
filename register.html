@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" type="image/x-icon" href="./img/fav.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8cfedbae53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="l-r-Container">
+            <div class="registerContainer">
+                <div class="register">
+                    <div class="register-header">
+                        <div class="resister-innerheader">
+                            <span class="resister-big-txt">sign up</span>
+                            <i class="fa-solid fa-xmark" onclick="window.location.href='./login.html'"></i>
+                        </div>
+                        <div class="register-normal-txt">It's quick and easy.</div>
+                    </div>
+                    <div class="form-wrapper">
+                        <form onsubmit="register(event)">
+                            <div class="input_wrap">
+                                <input type="text" id="userName" required autocomplete="off" placeholder="Username" />
+                            </div>
+                            <div class="input_wrap">
+                                <input type="email" id="userEmail" required autocomplete="off" placeholder="Email" />
+                            </div>
+                            <div class="input_wrap">
+                                <input type="password" id="userPassword" required autocomplete="off"
+                                    placeholder="Password" />
+                            </div>
+                            <div class="input_wrap">
+                                <input type="password" id="userConfirmPassword" required autocomplete="off"
+                                    placeholder="Confirm Password" />
+                            </div>
+
+                            <p class="tandc-sp-small-text">People who use our service may have uploaded your contact
+                                information to Facebook.
+                                <span>Learn more</span>
+                            </p>
+
+                            <p class="tandc-sp-small-text">By clicking on Login, I accept the <span>Terms &
+                                    Conditions Privacy
+                                    Policy</span>. You may receive SMS notifications from us and can opt out at any
+                                time.</p>
+                            <div class="submit-btn">
+                                <input type="submit" name="" id="" value="Sign Up">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
