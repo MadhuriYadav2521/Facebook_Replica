@@ -87,3 +87,31 @@ function logout() {
     window.location.reload();
     window.location.href = "./register.html"
 }
+function on() {
+    document.getElementById("overlay-addPost").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay-addPost").style.display = "none";
+}
+
+function addPost(event) {
+    event.preventDefault();
+    // alert("Product adding....")
+    var pname = document.getElementById("pname").value;
+    var pprofile = document.getElementById("pprofile").value;
+    var pimage = document.getElementById("pimage").value;
+    var pcaption = document.getElementById("pcaption").value;
+    var product = { pname, pprofile, pimage, pcaption };
+
+    var LS = JSON.parse(localStorage.getItem("facebookPosts")) || [];
+    LS.push(product);
+    localStorage.setItem("facebookPosts", JSON.stringify(LS));
+
+    alert("Post Added Successfully.")
+    window.location.href='./index.html'
+    document.getElementById("pname").value = "";
+    document.getElementById("pprofile").value = "";
+    document.getElementById("pimage").value = "";
+    document.getElementById("pcaption").value = "";
+}
