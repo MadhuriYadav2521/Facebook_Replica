@@ -9,6 +9,20 @@
     <link rel="icon" type="image/x-icon" href="./img/fav.png">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/8cfedbae53.js" crossorigin="anonymous"></script>
+    <script>
+        function PrifileshowHideDiv(ele) {
+    var srcElement = document.getElementById(ele);
+    if (srcElement != null) {
+        if (srcElement.style.display == "block") {
+            srcElement.style.display = 'none';
+        }
+        else {
+            srcElement.style.display = 'block';
+        }
+        return false;
+    }
+}
+    </script>
 </head>
 
 <body>
@@ -34,7 +48,7 @@
                 <div class="nav-right-item"><i class="fa-solid fa-braille"></i></div>
                 <div class="nav-right-item"><i class="fa-brands fa-facebook-messenger"></i></div>
                 <div class="nav-right-item"><i class="fa-solid fa-bell"></i></div>
-                <div class="nav-right-item"><i class="fa-solid fa-user"></i></div>
+                <div class="nav-right-item" onClick="PrifileshowHideDiv('divMsg')"><i class="fa-solid fa-user"></i></div>
             </div>
         </div>
 
@@ -330,6 +344,12 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!-- dropdowns -->
+                <div id="divMsg">
+                    <b>Hello friends, <br>How are you?</b>
+                 </div>
 
             </div>
 

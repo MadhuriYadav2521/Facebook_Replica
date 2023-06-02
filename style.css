@@ -527,7 +527,7 @@ a {
 .activity-section {
     width: 100%;
     background-color: #fff;
-    padding: 1rem;
+    /* padding: 1rem; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 2rem;
     border-radius: 1rem;
@@ -539,7 +539,7 @@ a {
     justify-content: space-between;
     align-items: center;
     border-bottom: .1rem solid lightgray;
-    padding-bottom: .5rem;
+    padding: 1rem;
 }
 
 .activity-header-img {
@@ -554,7 +554,7 @@ a {
 }
 
 .activity-section-header input {
-    width: 89%;
+    width: 88%;
     border-radius: 2rem;
     background-color: #f0f2f5;
     border: none;
@@ -577,8 +577,12 @@ a {
     align-items: center;
     gap: 1rem;
     cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
 }
-
+.activity-link:hover{
+    background-color: #f0f2f5;
+}
 .activity-link-img {
     width: 20%;
 }
@@ -828,6 +832,18 @@ a {
     background-color: #0563de;
 }
 
+#divMsg{
+    background-color: white; 
+    height: 400px; 
+    width: 300px; 
+    padding: 1rem;
+    display:none; 
+    position: fixed; 
+    z-index: 2; 
+    right: 2rem;
+    top: 7.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 
 
 

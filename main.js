@@ -115,3 +115,27 @@ function addPost(event) {
     document.getElementById("pimage").value = "";
     document.getElementById("pcaption").value = "";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
