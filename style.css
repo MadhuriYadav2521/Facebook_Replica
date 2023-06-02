@@ -834,28 +834,91 @@ a {
 
 #divMsg{
     background-color: white; 
-    height: 400px; 
-    width: 300px; 
+    /* height: 400px;  */
+    width: 25%; 
     padding: 1rem;
     display:none; 
     position: fixed; 
     z-index: 2; 
     right: 2rem;
-    top: 7.5rem;
+    top: 6.5rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.seeProfile{
+    width: 95%;
+    margin: 1rem auto;
+    border-bottom: .1rem solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+.seeProfileImg{
+    width: 15%;
+    /* border: .1rem solid lightgray; */
+    border-radius: 100%;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.seeProfileImg img{
+    width: 100%;
+    border-radius: 100%;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+}
+.seeProfileUserName{
+    font-size: 1.5rem;
+    font-weight: 550;
+    cursor: pointer;
 
+}
+.seeProfileOptions{
+    width: 100%;
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
 
-
-
-
-
-
-
-
-
-
+}
+.seeProfileOptions:hover{
+    background-color: #f0f2f5;
+}
+.spoLeft{
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.spoinnerLeft{
+    width: 18%;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 1rem;
+}
+.spoinnerLeft i{
+    font-size: 2rem;
+    text-align: center;
+}
+.spoinnerright{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.spoRight{
+    width: 15%;
+    display: flex;
+    justify-content: right;
+}
+.spoRight i{
+    font-size: 2rem;
+}
 
 
 

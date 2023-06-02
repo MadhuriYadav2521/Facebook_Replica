@@ -346,7 +346,34 @@
 
                 <!-- dropdowns -->
                 <div id="divMsg">
-                    <div class="left-aside-links" id="logout">
+                    <div class="seeProfile">
+                        <div class="seeProfileImg">
+                            <img src="./img/finfFriends-removebg-preview.png" alt="">
+                        </div>
+                        <div class="seeProfileUserName">UserName</div>
+                    </div>
+                    <div class="seeProfileOptions">
+                        <div class="spoLeft">
+                            <div class="spoinnerLeft"><i class="fa-solid fa-gear"></i></div>
+                            <div class="spoinnerright">Settings & Privacy</div>
+                        </div>
+                        <div class="spoRight"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+                    <div class="seeProfileOptions">
+                        <div class="spoLeft">
+                            <div class="spoinnerLeft"><i class="fa-solid fa-question"></i></div>
+                            <div class="spoinnerright">Help & Support</div>
+                        </div>
+                        <div class="spoRight"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+                    <div class="seeProfileOptions">
+                        <div class="spoLeft">
+                            <div class="spoinnerLeft"><i class="fa-solid fa-moon"></i></div>
+                            <div class="spoinnerright">Display & Accessibility</div>
+                        </div>
+                        <div class="spoRight"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+                    <div class="seeProfileOptions" id="logout">
 
                     </div>
                  </div>
@@ -399,7 +426,7 @@
                 // alert(currentUser.namee)
                 var logoutDiv = document.getElementById("logout");
                 var divFromHtml = document.getElementById("switch");
-                var button = '<div class="left-aside-img"> <i class="fa-solid fa-arrow-right-from-bracket"></i></div> <div  onclick="logout() " class="left-aside-title">Logout</div>'
+                var button = ' <div class="spoLeft"  onclick="logout() "><div class="spoinnerLeft"> <i class="fa-solid fa-arrow-right-from-bracket"></i></div> <div class="spoinnerright">Logout</div></div><div class="spoRight"></div>'
                 var name = `<p> ${currentUser.namee}</p>`;
                 divFromHtml.innerHTML = name;
                 logoutDiv.innerHTML = button;
@@ -412,11 +439,7 @@
 
             var finalContainer = "";
             for (var i = productsFromLS.length - 1; i >= 0; i--) {
-                // finalData += `<a  onclick='redirect(${JSON.stringify(productsFromLS[i])})'>
-                //             <img src=${productsFromLS[i].proImage} /><div class="g-pro-name">${productsFromLS[i].proName}</div>
-                //             <div class="g-pro-price">₹  ${productsFromLS[i].proPrice}</div></a>`;
-
-
+              
                 finalContainer += `
                 <div class="post-section">
                             <div class="post-header">
