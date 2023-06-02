@@ -120,9 +120,7 @@
                     </div>
                     <div class="left-aside-title">ads manager</div>
                 </div>
-                <div class="left-aside-links" id="logout">
-
-                </div>
+               
                 <div class="left-aside-links">
                     <div class="left-aside-img">
                         <i class="fa-solid fa-angle-down"></i>
@@ -348,7 +346,9 @@
 
                 <!-- dropdowns -->
                 <div id="divMsg">
-                    <b>Hello friends, <br>How are you?</b>
+                    <div class="left-aside-links" id="logout">
+
+                    </div>
                  </div>
 
             </div>
@@ -399,7 +399,7 @@
                 // alert(currentUser.namee)
                 var logoutDiv = document.getElementById("logout");
                 var divFromHtml = document.getElementById("switch");
-                var button = '<div class="left-aside-img" onclick="logout() "> <i class="fa-solid fa-arrow-right-from-bracket"></i></div> <div class="left-aside-title">Logout</div>'
+                var button = '<div class="left-aside-img"> <i class="fa-solid fa-arrow-right-from-bracket"></i></div> <div  onclick="logout() " class="left-aside-title">Logout</div>'
                 var name = `<p> ${currentUser.namee}</p>`;
                 divFromHtml.innerHTML = name;
                 logoutDiv.innerHTML = button;
