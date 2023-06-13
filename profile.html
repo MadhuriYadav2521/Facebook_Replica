@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="./img/fav.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8cfedbae53.js" crossorigin="anonymous"></script>
+    <script>
+        function PrifileshowHideDiv(ele) {
+            var srcElement = document.getElementById(ele);
+            if (srcElement != null) {
+                if (srcElement.style.display == "block") {
+                    srcElement.style.display = 'none';
+                }
+                else {
+                    srcElement.style.display = 'block';
+                }
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="top-navbar">
+            <div class="left-navbar">
+                <div class="fb-logo">
+                    <img src="./img/fav.png" alt="">
+                </div>
+                <div class="nav-searchbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search Facebook">
+                </div>
+            </div>
+            <div class="middle-navbar">
+                <div class="nav-item"><i class="fa-solid fa-house"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-display"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-store"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-people-group"></i></div>
+                <div class="nav-item"><i class="fa-solid fa-business-time"></i></div>
+            </div>
+            <div class="right-navbar">
+                <div class="nav-right-item"><i class="fa-solid fa-braille"></i></div>
+                <div class="nav-right-item"><i class="fa-brands fa-facebook-messenger"></i></div>
+                <div class="nav-right-item"><i class="fa-solid fa-bell"></i></div>
+                <div class="nav-right-item" onClick="PrifileshowHideDiv('divMsg')"><i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

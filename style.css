@@ -320,15 +320,16 @@ a {
     margin: auto;
     text-align: center;
     cursor: pointer;
+    padding: 1rem 0;
 }
-
-.nav-item:nth-child(1) {
+.nav-item:hover{
+    background-color: #f0f2f5;
+    border-radius: 1rem;
+}
+.active_menu{
+   
     border-bottom: .2rem solid #1877f2;
     padding: 1.5rem 0;
-}
-
-.nav-item:nth-child(1) i {
-    color: #1877f2;
 }
 
 .nav-item i {
@@ -336,7 +337,9 @@ a {
     color: gray;
 
 }
-
+.active_menu i {
+    color: #1877f2;
+}
 .nav-right-item {
     /* width: auto; */
     /* margin: auto; */
